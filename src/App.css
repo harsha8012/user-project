@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: var(--color-bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+nav NavLink {
+  background-color: var(--color-blog);
+}
+
+nav a.active {
+  font-family: Gilroy-Medium;;
+  font-weight: bolder;
+  font-size: large;
+  color: rgba(229, 215, 215, 0.566);
+  text-decoration:none;  
+}
+
+nav a.active:hover {
+  background-color: rgba(150, 153, 152, 0.152);
+  color: var(--gradient-bar);
+}
+
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding-right: 3rem; 
+}
+
+Route {
+  padding: 2rem 2rem;
+}
